@@ -1,0 +1,35 @@
+.videoCard {
+    flex : 49%;
+    height: 100%;
+    display: flex;
+    margin: 0 0.2em 0.2em 0.2em;
+    cursor: pointer;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid var(--grey);
+    transition: transform 150ms ease-in;
+}
+
+.videoCard:hover {
+    transform: scale(1.01);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+    border : 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.thumbnail {
+    width: 40%;
+    height: 100%;
+}
+
+.metadata {
+    padding-left: 0.2em;
+}
+
+.videoTitle, .videoChannel {
+    font-size: 0.8rem;
+}
+
+.videoTitle {
+    font-weight : 500;
+}
